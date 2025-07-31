@@ -1,0 +1,31 @@
+{
+    "name": "WriteMessageBox",
+    "version": "1.0.0",
+    "command_name": "wmb",
+    "extension_author": "daz",
+    "original_author": "daz",
+    "repo_url": "https://github.com/sliverarmory/CredManBOF",
+    "help": "Example BOF to Write Message Box to the Screen via a Given Argument",
+    "depends_on": "coff-loader",
+    "entrypoint": "go",
+    "files": [
+        {
+            "os": "windows",
+            "arch": "amd64",
+            "path": "wmb.x64.o"
+        },
+        {
+            "os": "windows",
+            "arch": "386",
+            "path": "wmb.x86.o"
+        }
+    ],
+    "arguments": [
+        {
+            "name": "message",
+            "desc": "Message to display",
+            "type": "string",
+            "optional": true
+        }
+    ]
+}

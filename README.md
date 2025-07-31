@@ -2,6 +2,11 @@
 
 Example BOF for practicing BOF development, prints out a Message Box with a string as a given argument.
 
+Development of this BOF/credit goes out to Steve Oro and the Sliver docs.
+
+https://binaryops.dev/creating-sliver-bofs-beacon-object-files/
+https://sliver.sh/docs?name=BOF+and+COFF+Support
+
 Usage:
 ======
   wmb [flags] [message]

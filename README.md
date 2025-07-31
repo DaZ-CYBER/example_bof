@@ -19,3 +19,5 @@ Flags:
 ======
   -h, --help           display help
   -t, --timeout int    command timeout in seconds (default: 60)
+
+![image](https://github.com/DaZ-CYBER/example_bof/blob/main/images/bof_exec_img.png)

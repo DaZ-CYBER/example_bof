@@ -4,7 +4,7 @@
     "command_name": "wmb",
     "extension_author": "daz",
     "original_author": "daz",
-    "repo_url": "https://github.com/sliverarmory/CredManBOF",
+    "repo_url": "https://github.com/DaZ-CYBER/example_bof",
     "help": "Example BOF to Write Message Box to the Screen via a Given Argument",
     "depends_on": "coff-loader",
     "entrypoint": "go",
